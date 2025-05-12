@@ -3,7 +3,7 @@ Contributors: catchplugins, catchthemes, sakinshrestha, pratikshrestha, maheshma
 Donate link: https://catchplugins.com/plugins/catch-breadcrumb/
 Tags: breadcrumb, breadcrumbs, menu, navigation, trail
 Requires at least: 5.9
-Tested up to: 6.5
+Tested up to: 6.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -37,6 +37,9 @@ Not so easy way (via FTP) :
 * Go to **Catch Breadcrumb** from Dashboard menu
 
 == Changelog ==
+
+= 2.2 (Released: May 12, 2025) =
+* Compatibility check up to version 6.8
 
 = 2.1 (Released: April 05, 2024) =
 * Compatibility check up to version 6.5

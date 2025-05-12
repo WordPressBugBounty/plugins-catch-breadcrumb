@@ -16,7 +16,7 @@
  * Plugin Name:       Catch Breadcrumb
  * Plugin URI:        catchplugins.com/plugins/catch-breadcrumb/
  * Description:       Catch Breadcrumb lets you display Breadcrumb Navigation anywhere on your website elegantly. It  helps your readers navigate easily through your website without getting lost.
- * Version:           2.1
+ * Version:           2.2
  * Author:            Catch Plugins
  * Author URI:        catchplugins.com
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'CATCH_BREADCRUMB_VERSION', '2.1' );
+define( 'CATCH_BREADCRUMB_VERSION', '2.2' );
 
 /**
  * The code that runs during plugin activation.
