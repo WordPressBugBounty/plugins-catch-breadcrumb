@@ -3,8 +3,8 @@ Contributors: catchplugins, catchthemes, sakinshrestha, pratikshrestha, maheshma
 Donate link: https://catchplugins.com/plugins/catch-breadcrumb/
 Tags: breadcrumb, breadcrumbs, menu, navigation, trail
 Requires at least: 5.9
-Tested up to: 6.8
-Stable tag: trunk
+Tested up to: 6.9
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,14 @@ Not so easy way (via FTP) :
 * Go to **Catch Breadcrumb** from Dashboard menu
 
 == Changelog ==
+
+= 2.3 (Released: January 26, 2026) =
+* Bug Fixed: missing_direct_file_access_protection
+* Bug Fixed: WordPress.Security.EscapeOutput.UnsafePrintingFunction
+* Bug Fixed: WordPress.Security.EscapeOutput.OutputNotEscaped
+
+= 2.2.1 (Released: January 06, 2026) =
+* Compatibility check up to version 6.9
 
 = 2.2 (Released: May 12, 2025) =
 * Compatibility check up to version 6.8

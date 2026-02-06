@@ -1,11 +1,11 @@
-# Copyright (C) 2018-2022 Catch Plugins
+# Copyright (C) 2018-2026 Catch Plugins
 # This file is distributed under the GNU General Public License v2 or later.
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Catch Breadcrumb\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2024-04-05 22:47+0545\n"
+"POT-Creation-Date: 2026-01-26 19:32+0545\n"
 "PO-Revision-Date: 2016-12-12 09:23-0500\n"
 "Last-Translator: Sakin Shrestha <info@catchplugins.com>\n"
 "Language-Team: Catch Plugins <info@catchplugins.com>\n"
@@ -14,107 +14,106 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.2\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx;_x;"
-"esc_html_e;esc_html__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_n_noop:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx;_x;esc_html_e;esc_html__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../admin/class-catch-breadcrumb-admin.php:118
-#: ../admin/class-catch-breadcrumb-admin.php:142
-#: ../admin/partials/dashboard-display.php:19
+#: ../admin/class-catch-breadcrumb-admin.php:136
+#: ../admin/class-catch-breadcrumb-admin.php:159
+#: ../admin/partials/dashboard-display.php:23
 msgid "Settings"
 msgstr ""
 
-#: ../admin/class-catch-breadcrumb-admin.php:130
-#: ../admin/class-catch-breadcrumb-admin.php:131
-#: ../admin/class-catch-breadcrumb-admin.php:141
+#: ../admin/class-catch-breadcrumb-admin.php:147
+#: ../admin/class-catch-breadcrumb-admin.php:148
+#: ../admin/class-catch-breadcrumb-admin.php:158
 msgid "Catch Breadcrumb"
 msgstr ""
 
-#: ../admin/class-catch-breadcrumb-admin.php:154
+#: ../admin/class-catch-breadcrumb-admin.php:171
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:16
+#: ../admin/partials/catch-breadcrumb-admin-display.php:21
 msgid "Breadcrumb"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:18
+#: ../admin/partials/catch-breadcrumb-admin-display.php:23
 msgid ""
 "Catch Breadcrumb lets you display Breadcrumb Navigation anywhere on your "
 "website elegantly. It helps your readers navigate easily through your "
 "website without getting lost."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:24
+#: ../admin/partials/catch-breadcrumb-admin-display.php:29
 msgid "Dashboard"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:25
-#: ../admin/partials/catch-breadcrumb-admin-display.php:112
-#: ../admin/partials/catch-breadcrumb-admin-display.php:166
+#: ../admin/partials/catch-breadcrumb-admin-display.php:30
+#: ../admin/partials/catch-breadcrumb-admin-display.php:118
+#: ../admin/partials/catch-breadcrumb-admin-display.php:173
 msgid "Features"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:26
-#: ../admin/partials/catch-breadcrumb-admin-display.php:159
+#: ../admin/partials/catch-breadcrumb-admin-display.php:31
+#: ../admin/partials/catch-breadcrumb-admin-display.php:166
 msgid "Compare Table"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:34
+#: ../admin/partials/catch-breadcrumb-admin-display.php:39
 msgid "Catch Themes & Catch Plugins Tabs"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:42
+#: ../admin/partials/catch-breadcrumb-admin-display.php:47
 msgid ""
 "If you want to turn off Catch Themes & Catch Plugins tabs option in Add "
 "Themes and Add Plugins page, please uncheck the following option."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:50
+#: ../admin/partials/catch-breadcrumb-admin-display.php:55
 msgid "Turn On Catch Themes & Catch Plugin tabs"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:76
+#: ../admin/partials/catch-breadcrumb-admin-display.php:81
 msgid "Go Premium!"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:81
+#: ../admin/partials/catch-breadcrumb-admin-display.php:86
 msgid "Dismiss this item."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:85
-#: ../admin/partials/sidebar.php:8
+#: ../admin/partials/catch-breadcrumb-admin-display.php:90
+#: ../admin/partials/sidebar.php:16
 msgid "Breadcrumb Font Size"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:86
-#: ../admin/partials/sidebar.php:9
+#: ../admin/partials/catch-breadcrumb-admin-display.php:91
+#: ../admin/partials/sidebar.php:17
 msgid "Breadcrumb Text Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:87
-#: ../admin/partials/sidebar.php:10
+#: ../admin/partials/catch-breadcrumb-admin-display.php:92
+#: ../admin/partials/sidebar.php:18
 msgid "Breadcrumb Background Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:90
+#: ../admin/partials/catch-breadcrumb-admin-display.php:95
 msgid "Find out why you should upgrade to Catch Breadcrumb Premium »"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:97
+#: ../admin/partials/catch-breadcrumb-admin-display.php:103
 msgid "Pro Screenshot"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:117
-#: ../admin/partials/catch-breadcrumb-admin-display.php:207
+#: ../admin/partials/catch-breadcrumb-admin-display.php:123
+#: ../admin/partials/catch-breadcrumb-admin-display.php:230
 msgid "Shortcode"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:118
+#: ../admin/partials/catch-breadcrumb-admin-display.php:124
 msgid ""
 "Catch Breadcrumb, the new breadcrumb WordPress plugin supports shortcode. "
 "With the plugin activated, you will be provided with the shortcode option. "
@@ -122,12 +121,12 @@ msgid ""
 "and enjoy displaying your breadcrumb trail. "
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:121
-#: ../admin/partials/catch-breadcrumb-admin-display.php:215
+#: ../admin/partials/catch-breadcrumb-admin-display.php:127
+#: ../admin/partials/catch-breadcrumb-admin-display.php:242
 msgid "Breadcrumb Selector"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:122
+#: ../admin/partials/catch-breadcrumb-admin-display.php:128
 msgid ""
 "You can display your breadcrumb trail wherever you want on your website. On "
 "the Breadcrumb Selector field, you need to enter the website position. The "
@@ -135,11 +134,11 @@ msgid ""
 "website section. "
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:126
+#: ../admin/partials/catch-breadcrumb-admin-display.php:132
 msgid "Incredible Support"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:127
+#: ../admin/partials/catch-breadcrumb-admin-display.php:133
 msgid ""
 "We have a great line of support team and support documentation. You do not "
 "need to worry about how to use the plugins we provide, just refer to our "
@@ -147,292 +146,292 @@ msgid ""
 "your website, you can always hire our customizer!"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:131
+#: ../admin/partials/catch-breadcrumb-admin-display.php:137
 msgid "Light Weight"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:132
+#: ../admin/partials/catch-breadcrumb-admin-display.php:138
 msgid ""
 "Catch Breadcrumb, a simple breadcrumb plugin for WordPress is extremely "
 "lightweight. It means you will not have to worry about your website getting "
 "slower because of the plugin. "
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:136
-#: ../admin/partials/catch-breadcrumb-admin-display.php:175
+#: ../admin/partials/catch-breadcrumb-admin-display.php:142
+#: ../admin/partials/catch-breadcrumb-admin-display.php:182
 msgid "Responsive Design"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:137
+#: ../admin/partials/catch-breadcrumb-admin-display.php:143
 msgid ""
 "Catch Breadcrumb comes with a responsive design, which means the breadcrumb "
 "trails will look elegant on all devices. "
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:141
+#: ../admin/partials/catch-breadcrumb-admin-display.php:147
 msgid "Compatible With All WordPress Themes"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:142
+#: ../admin/partials/catch-breadcrumb-admin-display.php:148
 msgid ""
 "Catch Breadcrumb has been crafted in a way that supports all the themes on "
 "WordPress. The plugin functions smoothly on every WordPress theme."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:152
+#: ../admin/partials/catch-breadcrumb-admin-display.php:158
 msgid "Get Catch Breadcrumb Pro -"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:152
+#: ../admin/partials/catch-breadcrumb-admin-display.php:158
 msgid "Get It Here!"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:153
+#: ../admin/partials/catch-breadcrumb-admin-display.php:159
 msgid "You are currently using the free version of Catch Breadcrumb."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:154
+#: ../admin/partials/catch-breadcrumb-admin-display.php:160
 msgid ""
 "If you have purchased from catchplugins.com, then follow this link to the "
 "installation instructions (particularly step 1)."
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:167
+#: ../admin/partials/catch-breadcrumb-admin-display.php:174
 msgid "Free"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:168
+#: ../admin/partials/catch-breadcrumb-admin-display.php:175
 msgid "Pro"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:183
+#: ../admin/partials/catch-breadcrumb-admin-display.php:194
 msgid "Super Easy Setup"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:191
+#: ../admin/partials/catch-breadcrumb-admin-display.php:206
 msgid "Lightweight"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:199
-#: ../admin/partials/dashboard-display.php:80
+#: ../admin/partials/catch-breadcrumb-admin-display.php:218
+#: ../admin/partials/dashboard-display.php:85
 msgid "Breadcrumb Separator"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:223
+#: ../admin/partials/catch-breadcrumb-admin-display.php:254
 msgid "Enable on Home Page"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:231
+#: ../admin/partials/catch-breadcrumb-admin-display.php:266
 msgid "Font Size"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:239
+#: ../admin/partials/catch-breadcrumb-admin-display.php:278
 msgid "Background Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:247
+#: ../admin/partials/catch-breadcrumb-admin-display.php:290
 msgid "Text Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:255
+#: ../admin/partials/catch-breadcrumb-admin-display.php:302
 msgid "Separator Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:263
+#: ../admin/partials/catch-breadcrumb-admin-display.php:314
 msgid "Breadcrumb Border Color"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:271
+#: ../admin/partials/catch-breadcrumb-admin-display.php:326
 msgid "Breadcrumb Border Style"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:279
+#: ../admin/partials/catch-breadcrumb-admin-display.php:338
 msgid "Breadcrumb Font Family"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:287
+#: ../admin/partials/catch-breadcrumb-admin-display.php:350
 msgid "Breadcrumb Padding Top and Bottom "
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:295
+#: ../admin/partials/catch-breadcrumb-admin-display.php:362
 msgid "Breadcrumb Margin Right and left"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:303
+#: ../admin/partials/catch-breadcrumb-admin-display.php:374
 msgid "Breadcrumb Border Thickness and Raduis"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:311
+#: ../admin/partials/catch-breadcrumb-admin-display.php:386
 msgid "Upload Home Icon"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:319
+#: ../admin/partials/catch-breadcrumb-admin-display.php:398
 msgid "Breadcrumb Width"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:327
+#: ../admin/partials/catch-breadcrumb-admin-display.php:410
 msgid "Breadcrumb Font Style"
 msgstr ""
 
-#: ../admin/partials/catch-breadcrumb-admin-display.php:335
+#: ../admin/partials/catch-breadcrumb-admin-display.php:422
 msgid "Box shadow Options"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:25
+#: ../admin/partials/dashboard-display.php:30
 msgid "Plugin Options Saved."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:51
+#: ../admin/partials/dashboard-display.php:56
 msgid "Content Selector"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:55
+#: ../admin/partials/dashboard-display.php:60
 msgid "Breadcrumb will be displayed just before this selector."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:61
+#: ../admin/partials/dashboard-display.php:66
 msgid "Display Breadcrumb"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:73
+#: ../admin/partials/dashboard-display.php:78
 msgid ""
 "Set your desire breadcrumb position which will be display before/after "
 "content selector."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:84
+#: ../admin/partials/dashboard-display.php:89
 msgid "Anything you want to put as separator inbetween the breadcrumbs."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:90
+#: ../admin/partials/dashboard-display.php:95
 msgid ""
 "shortcode (in the Post/Page content) will enable Breadcrumb into the Page/"
 "Post."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:91
+#: ../admin/partials/dashboard-display.php:96
 msgid "OR"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:96
+#: ../admin/partials/dashboard-display.php:101
 msgid "Enable Home Icon"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:100
-#: ../admin/partials/dashboard-display.php:110
+#: ../admin/partials/dashboard-display.php:105
+#: ../admin/partials/dashboard-display.php:115
 msgid " Check to enable"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:102
+#: ../admin/partials/dashboard-display.php:107
 msgid "Checking this option will enable Home icon in breadcrumb."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:106
+#: ../admin/partials/dashboard-display.php:111
 msgid "Enable On Home Page"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:112
+#: ../admin/partials/dashboard-display.php:117
 msgid "Checking this option will display breadcrumb on homepage/frontpage."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:116
+#: ../admin/partials/dashboard-display.php:121
 msgid "Reset Options"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:119
+#: ../admin/partials/dashboard-display.php:124
 msgid "Check to reset"
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:120
+#: ../admin/partials/dashboard-display.php:125
 msgid "Caution: Reset all settings to default."
 msgstr ""
 
-#: ../admin/partials/dashboard-display.php:125
+#: ../admin/partials/dashboard-display.php:130
 msgid "Save Changes"
 msgstr ""
 
-#: ../admin/partials/footer.php:4
+#: ../admin/partials/footer.php:12
 msgid "Catch Plugins"
 msgstr ""
 
-#: ../admin/partials/footer.php:9
+#: ../admin/partials/footer.php:17
 msgid "View Themes"
 msgstr ""
 
-#: ../admin/partials/footer.php:10
+#: ../admin/partials/footer.php:18
 msgid "View Plugins"
 msgstr ""
 
-#: ../admin/partials/footer.php:11
+#: ../admin/partials/footer.php:19
 msgid "Support"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:3
+#: ../admin/partials/sidebar.php:11
 msgid "Recommendations"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:6
+#: ../admin/partials/sidebar.php:14
 msgid "Get Breadcrumb Pro"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:13
+#: ../admin/partials/sidebar.php:21
 msgid "Get Now"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:19
+#: ../admin/partials/sidebar.php:27
 msgid "Premium Themes"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:20
+#: ../admin/partials/sidebar.php:28
 msgid ""
 "Check out our simple, clean and responsive Premium WordPress Themes that "
 "come with an array of crucial features with a superior functionality."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:20
+#: ../admin/partials/sidebar.php:28
 msgid "Check our premium themes."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:26
+#: ../admin/partials/sidebar.php:34
 msgid "Free Themes"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:27
+#: ../admin/partials/sidebar.php:35
 msgid ""
 "Check out our collection of Free WordPress Themes that are clean, simple and "
 "feature-rich."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:27
+#: ../admin/partials/sidebar.php:35
 msgid "Check our free themes."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:33
+#: ../admin/partials/sidebar.php:41
 msgid "Premium Plugins"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:34
+#: ../admin/partials/sidebar.php:42
 msgid ""
 "Check out our secured Premium WordPress Plugins to enhance and add extra "
 "functionalities to your website. An exceptional way to get the most out of "
 "WordPress!"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:34
+#: ../admin/partials/sidebar.php:42
 msgid "Check our premium plugins."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:42
+#: ../admin/partials/sidebar.php:50
 msgid "Free Plugins"
 msgstr ""
 
-#: ../admin/partials/sidebar.php:43
+#: ../admin/partials/sidebar.php:51
 msgid ""
 "Check out our Free WordPress Plugins and get the taste of our service "
 "without affecting your wallet."
 msgstr ""
 
-#: ../admin/partials/sidebar.php:44
+#: ../admin/partials/sidebar.php:52
 msgid "check our free plugins."
 msgstr ""
 
@@ -443,109 +442,106 @@ msgid ""
 "%1$s&laquo; Return to Plugins%2$s."
 msgstr ""
 
-#: ../catch-breadcrumb.php:202
+#: ../catch-breadcrumb.php:198
 msgid "Before"
 msgstr ""
 
-#: ../catch-breadcrumb.php:203
+#: ../catch-breadcrumb.php:199
 msgid "After"
 msgstr ""
 
-#: ../includes/CatchThemesThemePlugin.php:154
+#: ../includes/CatchThemesThemePlugin.php:175
 msgid "Themes by CatchThemes"
 msgstr ""
 
-#: ../includes/CatchThemesThemePlugin.php:434
+#: ../includes/CatchThemesThemePlugin.php:457
 msgctxt "Plugin Installer"
 msgid "Catch Plugins"
 msgstr ""
 
-#: ../includes/CatchThemesThemePlugin.php:473
-#, php-format
-msgid ""
-"You can use any of our free plugins or premium plugins from <a href=\"%s\" "
-"target=\"_blank\">Catch Plugins</a>"
+#: ../includes/ctp-tabs-removal.php:69
+msgid "Invalid request."
 msgstr ""
 
-#: ../includes/ctp-tabs-removal.php:59
+#: ../includes/ctp-tabs-removal.php:74
 msgid "Invalid Nonce"
 msgstr ""
 
-#: ../includes/ctp-tabs-removal.php:62
+#: ../includes/ctp-tabs-removal.php:80
 msgid "Permission denied!"
 msgstr ""
 
-#: ../includes/ctp-tabs-removal.php:76
+#: ../includes/ctp-tabs-removal.php:96
 msgid "Connection Error. Please try again."
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:200
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:25
+#: ../public/class-catch-breadcrumb-public.php:197
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:32
 msgid "Home"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:202
+#: ../public/class-catch-breadcrumb-public.php:199
 #, php-format
 msgid "%1$s Archive for %2$s"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:204
+#: ../public/class-catch-breadcrumb-public.php:201
 #, php-format
 msgid "%1$sSearch results for: %2$s"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:206
+#: ../public/class-catch-breadcrumb-public.php:203
 #, php-format
 msgid "%1$sPosts tagged %2$s"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:208
+#: ../public/class-catch-breadcrumb-public.php:205
 #, php-format
 msgid "%1$sView all posts by %2$s"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:209
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:30
+#: ../public/class-catch-breadcrumb-public.php:206
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:37
 msgid "Error 404"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:286
-#: ../public/class-catch-breadcrumb-public.php:287
-#: ../public/class-catch-breadcrumb-public.php:292
-#: ../public/class-catch-breadcrumb-public.php:297
+#: ../public/class-catch-breadcrumb-public.php:284
+#: ../public/class-catch-breadcrumb-public.php:285
+#: ../public/class-catch-breadcrumb-public.php:290
+#: ../public/class-catch-breadcrumb-public.php:295
 msgid "Y"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:287
+#: ../public/class-catch-breadcrumb-public.php:285
 msgid "m"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:287
-#: ../public/class-catch-breadcrumb-public.php:293
+#: ../public/class-catch-breadcrumb-public.php:285
+#: ../public/class-catch-breadcrumb-public.php:291
 msgid "F"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:288
+#: ../public/class-catch-breadcrumb-public.php:286
 msgid "d"
 msgstr ""
 
-#: ../public/class-catch-breadcrumb-public.php:409
+#: ../public/class-catch-breadcrumb-public.php:401
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:26
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:33
 msgid "Archive for "
 msgstr ""
 
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:27
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:34
 msgid "Search results for: "
 msgstr ""
 
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:28
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:35
 msgid "Posts tagged "
 msgstr ""
 
-#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:29
+#: ../public/partials/class-catch-breadcrumb-json-ld-schema.php:36
 msgid "View all posts by "
 msgstr ""
