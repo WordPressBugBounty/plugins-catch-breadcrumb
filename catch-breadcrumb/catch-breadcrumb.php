@@ -16,7 +16,7 @@
  * Plugin Name:       Catch Breadcrumb
  * Plugin URI:        https://catchplugins.com/plugins/catch-breadcrumb/
  * Description:       Catch Breadcrumb lets you display Breadcrumb Navigation anywhere on your website elegantly. It  helps your readers navigate easily through your website without getting lost.
- * Version:           2.3
+ * Version:           2.4
  * Author:            Catch Plugins
  * Author URI:        https://catchplugins.com
  * License:           GPL-2.0+
@@ -36,7 +36,9 @@ if (! defined('WPINC')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('CATCH_BREADCRUMB_VERSION', '2.3');
+if ( ! defined( 'CATCH_BREADCRUMB_VERSION' ) ) {
+	define( 'CATCH_BREADCRUMB_VERSION', '2.4' );
+}
 
 /**
  * The code that runs during plugin activation.
@@ -44,27 +46,22 @@ define('CATCH_BREADCRUMB_VERSION', '2.3');
  */
 // The URL of the directory that contains the plugin
 if (! defined('CATCH_BREADCRUMB_URL')) {
-
 	define('CATCH_BREADCRUMB_URL', plugin_dir_url(__FILE__));
 }
 
 
 // The absolute path of the directory that contains the file
 if (! defined('CATCH_BREADCRUMB_PATH')) {
-
 	define('CATCH_BREADCRUMB_PATH', plugin_dir_path(__FILE__));
 }
 
 
 // Gets the path to a plugin file or directory, relative to the plugins directory, without the leading and trailing slashes.
 if (! defined('CATCH_BREADCRUMB_BASENAME')) {
-
 	define('CATCH_BREADCRUMB_BASENAME', plugin_basename(__FILE__));
 }
 
-function activate_catch_breadcrumb()
-{
-
+function activate_catch_breadcrumb() {
 	/* Check if Catch Breadcrumb Pro is installed and active, abort plugin activation and return with message */
 	$required = 'catch-breadcrumb-pro/catch-breadcrumb-pro.php';
 
@@ -85,8 +82,7 @@ function activate_catch_breadcrumb()
  * The code that runs during plugin deactivation.
  * This action is documented in includes/class-catch-breadcrumb-deactivator.php
  */
-function deactivate_catch_breadcrumb()
-{
+function deactivate_catch_breadcrumb() {
 
 	require_once plugin_dir_path(__FILE__) . 'includes/class-catch-breadcrumb-deactivator.php';
 	Catch_Breadcrumb_Deactivator::deactivate();
@@ -110,17 +106,13 @@ require plugin_dir_path(__FILE__) . 'includes/class-catch-breadcrumb.php';
  *
  * @since    1.0.0
  */
-function breadcrumb_sanitize_checkbox($checked)
-{
-
+function breadcrumb_sanitize_checkbox($checked) {
 	// Boolean check.
 	return ((isset($checked) && true == $checked) ? true : false);
 }
 
 if (! function_exists('catch_breadcrumb_get_options')) :
-
-	function catch_breadcrumb_get_options()
-	{
+	function catch_breadcrumb_get_options() {
 
 		$defaults = catch_breadcrumb_default_options();
 		$options  = get_option('catch_breadcrumb_options', $defaults);
@@ -128,7 +120,6 @@ if (! function_exists('catch_breadcrumb_get_options')) :
 	}
 
 endif;
-
 
 if (! function_exists('catch_breadcrumb_default_options')) :
 
@@ -138,8 +129,7 @@ if (! function_exists('catch_breadcrumb_default_options')) :
 	 * @since     1.0
 	 * @return    array    default options.
 	 */
-	function catch_breadcrumb_default_options($option = null)
-	{
+	function catch_breadcrumb_default_options($option = null) {
 
 		$default_options = array(
 			'breadcrumb_separator'    => '&gt;',
@@ -168,9 +158,7 @@ if (! function_exists('catch_breadcrumb_default_options')) :
 
 endif; // breadcrumb_default_options
 
-function run_catch_breadcrumb()
-{
-
+function run_catch_breadcrumb() {
 	$plugin = new Catch_Breadcrumb();
 	$plugin->run();
 }
@@ -183,17 +171,13 @@ require plugin_dir_path(__FILE__) . 'includes/shortcodes.php';
  * Remove breadcrumb from default position
  * Check template-parts/header/breadcrumb.php
  */
-function catch_breadcrumb_remove_wc_breadcrumbs()
-{
-
+function catch_breadcrumb_remove_wc_breadcrumbs() {
 	remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
 }
 
 add_action('init', 'catch_breadcrumb_remove_wc_breadcrumbs');
 
-function catch_breadcrumb_dynamic_position()
-{
-
+function catch_breadcrumb_dynamic_position() {
 	$options = array(
 		'before' => esc_html__('Before', 'catch-breadcrumb'),
 		'after'  => esc_html__('After', 'catch-breadcrumb'),
@@ -207,7 +191,6 @@ require plugin_dir_path(__FILE__) . '/includes/ctp-tabs-removal.php';
 
 $ctp_options = ctp_get_options();
 if (1 == $ctp_options['theme_plugin_tabs']) {
-
 	/* Adds Catch Themes tab in Add theme page and Themes by Catch Themes in Customizer's change theme option. */
 	if (! class_exists('CatchThemesThemePlugin') && ! function_exists('add_our_plugins_tab')) {
 

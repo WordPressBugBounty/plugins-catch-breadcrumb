@@ -4,7 +4,7 @@ Donate link: https://catchplugins.com/plugins/catch-breadcrumb/
 Tags: breadcrumb, breadcrumbs, menu, navigation, trail
 Requires at least: 5.9
 Tested up to: 6.9
-Stable tag: 2.3
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,10 @@ Not so easy way (via FTP) :
 * Go to **Catch Breadcrumb** from Dashboard menu
 
 == Changelog ==
+
+= 2.4 (Released: February 17, 2026) =
+* Bug Fixed: Fixed error occurred while adding new themes
+* Bug Fixed: Fixed JS enqueue path for adding catch themes tab item in Themes add theme section
 
 = 2.3 (Released: January 26, 2026) =
 * Bug Fixed: missing_direct_file_access_protection

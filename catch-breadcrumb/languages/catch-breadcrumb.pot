@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Breadcrumb\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2026-01-26 19:32+0545\n"
+"POT-Creation-Date: 2026-02-17 20:49+0545\n"
 "PO-Revision-Date: 2016-12-12 09:23-0500\n"
 "Last-Translator: Sakin Shrestha <info@catchplugins.com>\n"
 "Language-Team: Catch Plugins <info@catchplugins.com>\n"
@@ -435,26 +435,26 @@ msgstr ""
 msgid "check our free plugins."
 msgstr ""
 
-#: ../catch-breadcrumb.php:75
+#: ../catch-breadcrumb.php:72
 #, php-format
 msgid ""
 "Sorry, Pro plugin is already active. No need to activate Free version. "
 "%1$s&laquo; Return to Plugins%2$s."
 msgstr ""
 
-#: ../catch-breadcrumb.php:198
+#: ../catch-breadcrumb.php:182
 msgid "Before"
 msgstr ""
 
-#: ../catch-breadcrumb.php:199
+#: ../catch-breadcrumb.php:183
 msgid "After"
 msgstr ""
 
-#: ../includes/CatchThemesThemePlugin.php:175
+#: ../includes/CatchThemesThemePlugin.php:162
 msgid "Themes by CatchThemes"
 msgstr ""
 
-#: ../includes/CatchThemesThemePlugin.php:457
+#: ../includes/CatchThemesThemePlugin.php:444
 msgctxt "Plugin Installer"
 msgid "Catch Plugins"
 msgstr ""
